@@ -1,4 +1,14 @@
 Rails.application.routes.draw do
+
+  root "static#home"
+  match '/leaderboards', to: "static#leaderboards", via: 'get'
+  match '/tournaments', to: "static#tournaments", via: 'get'
+  match '/highlights', to: "static#highlights", via: 'get'
+  match '/charities', to: "static#charities", via: 'get'
+  match '/about', to: "static#about", via: 'get'
+  match '/contact', to: "static#contact", via: 'get'
+  
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
