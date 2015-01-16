@@ -1,0 +1,44 @@
+$headercolor:#181818;
+$headercolor2:#282828;
+$headertextcolor:#eee;
+
+$headerheight:40px;
+
+#mainheader{
+ 	height:$headerheight;
+ 	background:$headercolor;
+ 	position:absolute;
+ 	width:100%;
+ 	z-index: 12;
+ }
+
+ #mainlogo{
+	font-size: 20px;
+	float:left;
+	
+	a{
+		color:$headertextcolor;
+		text-decoration:none;
+	}
+
+	#champ{
+		font-weight: bold;
+		font-size: 30px;
+	}
+}
+
+#headernav{
+	float:right;
+	font-size: 16px;
+	padding-top: 10px;
+
+	a{
+		color:$headertextcolor;
+		text-decoration: none;
+		font-weight: bold;
+		padding-right:15px;
+	}
+	a:hover{
+
+	}
+}

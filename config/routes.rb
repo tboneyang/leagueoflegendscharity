@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   match '/charities', to: "static#charities", via: 'get'
   match '/about', to: "static#about", via: 'get'
   match '/contact', to: "static#contact", via: 'get'
+  match '/schedules', to: "static#schedules", via: 'get'
   
 
   # The priority is based upon order of creation: first created -> highest priority.

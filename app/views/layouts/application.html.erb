@@ -8,15 +8,16 @@
 </head>
 <body>
 	<div id="wrapper">
-		<div id="mainheader">
-			<%= render 'layouts/header' %>
+		<div id="sitetheme1">
 		</div>
-		<div id="content">
-			<%= yield %>
-		</div>
-		<div id="mainfooter">
-			<%= render 'layouts/footer' %>
-		</div>
+		
+		<%= render 'layouts/header' %>
+			<div id="indenttopbot">
+					<%= yield %>
+			</div>
+		
 	</div>
+	<%= render 'layouts/footer' %>
+	
 </body>
 </html>

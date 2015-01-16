@@ -16,74 +16,32 @@
 
  @import url('http://fonts.googleapis.com/css?family=Roboto');
 
+
+
+
 html, 
 body {
 	margin:0;
 	padding:0;
 	height: 100%;
-	width: 100%;
 	font-family:Roboto;
-	
 }
 
 #wrapper{
-	position:relative;
+	height:auto !important;
+	min-height:100%;
 	height:100%;
-	background:#45a;
+	margin: 0 auto 100px;
+	
 }
 
- #mainheader{
- 	height:100px;
- 	background:#333;
+ #indenttopbot{
+ 	position:relative;
+ 	padding-top: 150px;
  }
 
 #content{
-	padding-top: 15px;
 	width:1000px;
 	margin:auto;
 	position:relative;
 }
-
-#mainfooter{
-	position:absolute;
-	bottom:0px;
-	background: #333;
-	height:100px;
-	width:100%;
-	color:#eee;
-}
-
-#mainlogo{
-	font-size: 35px;
-	color:#eee;
-	padding-left:20px;
-	padding-top:10px;
-	width:400px;
-	float:left;
-}
-
-#champ{
-	font-weight: bold;
-	font-size: 60px;
-}
-
-#headernav{
-	float:right;
-	word-spacing: 10px;
-	font-size: 20px;
-	margin-top: 45px;
-	width:790px;
-}
-
-#headernav a{
-	color:white;
-	text-decoration: none;
-	font-weight: bold;
-	padding:9px;
-	border-radius: 5px;
-}
-
-#headernav a:hover{
-	background:#444;
-}
-
