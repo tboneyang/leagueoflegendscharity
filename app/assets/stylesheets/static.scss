@@ -2,30 +2,26 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-#rankboard{
-	width:400px;
+#leftcol{
+	width:480px;
 	float:left;
+	padding:10px;
 }
-#donationsboard{
-	width:400px;
+#rightcol{
+	width:480px;
 	float:right;
+	padding:10px;
 }
 
-#tourneylink{
-	color:white;
-	text-decoration:none;
-	font-size: 20px;
+#writingcontainer{
+	padding-top:50px;
+	position:relative;
+}
+//general
+
+.bold{
 	font-weight:bold;
 }
-
-#tournresults{
-	width:950px;
-}
-
-#medtext{
-	font-size:40px;
-}
-
-#bigtext{
-	font-size:70px;
+.l12{
+	line-height:150%;
 }

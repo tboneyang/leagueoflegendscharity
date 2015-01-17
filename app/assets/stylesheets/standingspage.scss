@@ -1,0 +1,79 @@
+$maingold:#FFA607;
+$lightgrey:#eaeaea; //kass horn colors
+$medgrey:#ccc;
+$kassrobe:#282739;
+
+#tiericon{
+	background:url("/challenger.png") no-repeat;
+	background-position:165px;
+	background-size:50px 50px;
+}
+
+#standingsnavbar{
+	width:100%;
+	height:40px;
+	font-size:20px;
+	background:$lightgrey;
+	border:1px solid purple;
+	border-bottom:10px solid $kassrobe;
+
+	a{
+		color:$kassrobe;
+		text-decoration:none;
+	}
+
+	#currentstandingsnav{
+		height:33px;
+		width:347px;
+		float:left;
+		text-align:center;
+		padding-top:7px;
+		background:$kassrobe;
+		color:$lightgrey;
+	}
+
+	#prevstandingsnav{
+		height:33px;
+		width:237px;
+		float:left;
+		text-align:center;
+		padding-top:7px;
+
+	}
+
+	#alltimestandingsnav{
+		height:33px;
+		width:207px;
+		float:left;
+		text-align:center;
+		padding-top:7px;
+	}
+
+	#standingsearchbar{
+		border-radius:5px;
+		border:1px solid $kassrobe;
+		height:28px;
+		margin-left:10px;
+		margin-top:4px;
+		text-indent:30px;
+		background: white url("http://i.imgur.com/lFkqn.png") left center no-repeat;
+		font-size: 15px;
+	}
+}
+
+#standingslist{
+	width:100%;
+	height:680px;
+	background: $lightgrey;
+	border:1px solid purple;
+
+	td{
+		height:30px;
+		padding:12px;
+		border:1px solid $kassrobe;
+	}
+}
+
+#alt{
+	background:$medgrey;
+}

@@ -1,5 +1,5 @@
 class StaticController < ApplicationController
-  def leaderboards
+  def standings
   end
 
   def tournaments
@@ -18,6 +18,9 @@ class StaticController < ApplicationController
   end
 
   def schedules
+  end
+
+  def rules
   end
 
 end

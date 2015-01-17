@@ -1,13 +1,14 @@
 Rails.application.routes.draw do
 
   root "static#home"
-  match '/leaderboards', to: "static#leaderboards", via: 'get'
+  match '/standings', to: "static#standings", via: 'get'
   match '/tournaments', to: "static#tournaments", via: 'get'
   match '/highlights', to: "static#highlights", via: 'get'
   match '/charities', to: "static#charities", via: 'get'
   match '/about', to: "static#about", via: 'get'
   match '/contact', to: "static#contact", via: 'get'
   match '/schedules', to: "static#schedules", via: 'get'
+  match '/rules', to: "static#rules", via: "get"
   
 
   # The priority is based upon order of creation: first created -> highest priority.
