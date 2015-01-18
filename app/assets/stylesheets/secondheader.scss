@@ -1,36 +1,31 @@
 $lightpurp:#ede;
-$darkpurp:#414;
-$secondheaderheight:50px;
+$lgreen:#D8F6CE;
+$secondheaderheight:90px;
+$headergrey:#333;
 
 #secondheaderbox{
-	z-index:10;
-	top:100px;
 	height:$secondheaderheight;
-	background:$darkpurp;
-	position:absolute;
-	width:1000px;
-	opacity:0.7;
-	box-shadow:5px 5px 5px $lightpurp;
+	background:$lgreen;
+	width:100%
+
 }
 
 #secondheadernav{
-	position:absolute;
-	margin-top:115px;
-	z-index:11;
 	text-transform:uppercase;
-	margin-left:190px;
-	font-size:22px;
+	font-size:14px;
+	font-weight:bold;
+	padding-top:36px;
+	float:right;
 
 	a{
-		color:$lightpurp;
+		color:$headergrey;
 		text-decoration:none;
-		padding-left:8px;
-		padding-right:8px;
-		height:50px;
+		padding-left:15px;
+		padding-right:25px;
 
 	}
 	a:hover{
-		color:white;
+
 	}
 }
 
@@ -42,4 +37,22 @@ $secondheaderheight:50px;
 	width:110px;
 	z-index:12;
 
+}
+
+ #mainlogo{
+	font-size: 20px;
+	float:left;
+	padding-top: 16px;
+	padding-left:25px;
+	font-family:Oswald;
+	
+	a{
+		color:$headergrey;
+		text-decoration:none;
+	}
+
+	#champ{
+		font-weight: bold;
+		font-size: 30px;
+	}
 }

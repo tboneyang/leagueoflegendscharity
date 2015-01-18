@@ -1,44 +1,43 @@
-$headercolor:#181818;
+$headercolor:#333;
 $headercolor2:#282828;
-$headertextcolor:#eee;
+$headertextcolor:#D8F6CE;
 
-$headerheight:40px;
+$headerheight:35px;
 
 #mainheader{
  	height:$headerheight;
  	background:$headercolor;
- 	position:absolute;
  	width:100%;
- 	z-index: 12;
  }
-
- #mainlogo{
-	font-size: 20px;
-	float:left;
-	
-	a{
-		color:$headertextcolor;
-		text-decoration:none;
-	}
-
-	#champ{
-		font-weight: bold;
-		font-size: 30px;
-	}
-}
 
 #headernav{
 	float:right;
-	font-size: 16px;
+	font-size: 12px;
 	padding-top: 10px;
 
 	a{
 		color:$headertextcolor;
 		text-decoration: none;
-		font-weight: bold;
-		padding-right:15px;
+		padding-right:20px;
+		padding-left:20px;
+		border-right:1px solid #777;
 	}
 	a:hover{
-
+		color:green;
 	}
+}
+
+#socialmedia{
+	float:left;
+	padding-left:20px;
+
+	a{
+		padding-right:5px;
+	}
+}
+
+.hicon{
+	width:20px;
+	height:20px;
+	padding-top:7px;
 }

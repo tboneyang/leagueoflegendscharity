@@ -15,33 +15,49 @@
  */
 
  @import url('http://fonts.googleapis.com/css?family=Roboto');
-
-
-
+ @import url('http://fonts.googleapis.com/css?family=Oswald');
+ @import url('http://fonts.googleapis.com/css?family=Ubuntu');
+ @import url('http://fonts.googleapis.com/css?family=Lato');
 
 html, 
 body {
 	margin:0;
 	padding:0;
 	height: 100%;
-	font-family:Roboto;
+	font-family:Lato, sans-serif;
 }
 
 #wrapper{
-	height:auto !important;
-	min-height:100%;
 	height:100%;
-	margin: 0 auto 100px;
-	
+	min-height:100%;
+	position:relative;
+	background:#f3f3f3;
 }
 
  #indenttopbot{
  	position:relative;
- 	padding-top: 150px;
+ 	padding-top: 30px;
  }
 
 #content{
 	width:1000px;
 	margin:auto;
 	position:relative;
+}
+
+.gbackground{
+	background:#D8F6CE;
+}
+
+.lgbackground{
+	background:#f6f6f6;
+}
+
+.mgbackground{
+	background:#eee;
+}
+
+.indent45{
+	padding-left: 55px;
+	padding-right: 55px;
 }

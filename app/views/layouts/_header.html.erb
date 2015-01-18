@@ -1,23 +1,25 @@
 <div id="mainheader">
 	<div id="content">
-		<span id="mainlogo">
-			<a href="/">Best<span id="champ">Champion</span>NA</a>
-		</span>
+		<nav id="socialmedia">
+			<a href="facebook.com" ><img class="hicon" src="facebook.png"></a>
+			<a href="twitter.com" ><img class="hicon" src="twitter.png"></a>
+			<a href="/"><img class="hicon" src="search.png"></a>
+		</nav>
 		<nav id="headernav">
 			<%= link_to 'Charities', charities_path %>
 			<%= link_to 'Sponsors', charities_path %>
 			<%= link_to 'About', about_path %>
-			<%= link_to 'Contact', contact_path %>
+			<%= link_to 'Contact', contact_path, :style => "border-right: none;" %>
 		</nav>
 	</div>
 </div>
 
 
-<div id="content">
 	<div id="secondheaderbox">
-	</div>
-
-	<img src="/kass.png" id="mascot">
+	<div id="content">
+			<span id="mainlogo">
+			<a href="/">Best<span id="champ">Champion</span>NA</a>
+		</span>
 
 	<nav id="secondheadernav">
 			<%= link_to 'Schedules', schedules_path %>
@@ -26,4 +28,5 @@
 			<%= link_to 'Standings', standings_path %>
 			<%= link_to 'Highlights', highlights_path %>
 	</nav>
-</div>
+	</div>
+	</div>
