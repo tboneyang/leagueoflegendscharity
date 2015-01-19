@@ -1,33 +1,81 @@
 $lightpurp: #ede;
 $darkpurp: #414;
-$anniered: red;//#D03;
+$anniered: #faa;
 $darkgrey: #222;
 $lightgrey: #333;
 
-#champemph{
+$lgreen:#D8F6CE;
+
+.champemph{
 	font-weight:bold;
 	color:$anniered;
+	font-family:Oswald;
 }
 
-#mainslogan{
-	font-size:54px;
-	
+#homeqbox{
+	height:140px;
+	position:relative;
+	padding-left:25px;
+	background:#1a1a1a;
+	color:white;
+	border-top:1px solid black;
+}
+
+#homeqicon{
+	height:70px;
+	width:70px;
+	float:left;
+	border:3px solid $anniered;
+	margin-top:20px;
+	margin-left:15px;
+	border-radius:100%;
+}
+
+#mainq{
+	padding:none;
+	float:left;
+	font-size:30px;
+	width:350px;
+
+	#champ{
+		font-size:45px;
+	}
+}
+
+#donationdisplaybox{
+	width:530px;
+	height:100%;
+	padding-top:6px;
+	//padding-right:75px;
+	font-weight: bold;
+	float:right;
+
+	#donationnumber{
+		font-weight:bold; 
+	}
+
+	.numberbox{
+		float:right;
+		font-size: 35px;
+		position:relative;
+		padding:18px;
+		height:100%;
+		max-width: 170px;
+	}
+}
+
+.smalltext{
+	font-size:14px;
+	font-weight:100;
+	float:left;
+	width:100%;
+
 }
 
 #currenttourneybox{
-	border: 1px solid $darkpurp;
-	background:#9f909f;
 	width:100%;
-	height:600px;
+	height:315px;
 	position:relative;
-
-	#infostrip{
-		color:white;
-		height:10px;
-		width:100%;
-		background:$darkgrey;
-		float:left;
-	}
 
 	#leftbox{
 		position:relative;
@@ -41,45 +89,73 @@ $lightgrey: #333;
 		width:450px;
 		float:right;
 		font-size:25px;
-		background:$darkpurp;
+		//background:#333;
+		//border:1px solid black;
 		height:315px;
 		position:relative;
-		opacity:0.7;
 
-		#donationdisplaybox{
-			width:150px;
-			padding:15px;
-			font-weight: bold;
-			color:white;
-			float:right;
-			border-left:2px solid $darkgrey;
+		#homenavbox{
 
-			#donationnumber{
-				font-weight:bold; 
-			}
-
-			.smalltext{
+			.htopbar{
+				padding:8px;
 				font-size:14px;
-				font-weight:100;
-				height:35px;
-				float:left;
-				width:160px
+				font-weight: bold;
+				background:#ddd;
+				height:16px;
+				position:relative;
+
+				.htopsearch{
+					float:right;
+					height:14px;
+					text-indent:9px;
+					border:1px solid black;
+					border-radius:6px;
+				}
+
 			}
-			.numberbox{
-				height:45px;
-				float:left;
-				width:160px;
-				font-size: 40px;
+			.homestandings{
+				font-size:12px;
+				width:100%;
+
+				.toprow{
+					background:black;
+					color:white;
+				}
+			}
+			.frowd{
+				padding:3px;
 			}
 		}
 
-		#posterbox{
-			padding:15px;
-			font-size: 40px;
-			color:white;
-			width:260px;
+	#homenavbar{
+		height:29px;
+		width:100%;
+		background:black;
+
+		.homenavb{
+			font-family:Oswald;
+			width:150px;
+			height:29px;
+			border:none;
+			border-right:1px solid #333;
+			float:left;
 			text-align:center;
+			color:white;
+			background:black;
+			font-size: 14px;
+			font-weight: bold;
+			padding-top:6px;
+			cursor:pointer;
 		}
+
+		.selected{
+			background:#ddd;
+			color:black;
+			text-decoration:underline;
+		}
+
+	}
+
 	}
 
 }

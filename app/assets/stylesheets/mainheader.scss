@@ -1,13 +1,14 @@
 $headercolor:#333;
 $headercolor2:#282828;
-$headertextcolor:#D8F6CE;
-
+//$headertextcolor:#D8F6CE;
+$headertextcolor:#faa;
 $headerheight:35px;
 
 #mainheader{
  	height:$headerheight;
  	background:$headercolor;
  	width:100%;
+ 	font-family: Oswald;
  }
 
 #headernav{
@@ -23,13 +24,13 @@ $headerheight:35px;
 		border-right:1px solid #777;
 	}
 	a:hover{
-		color:green;
+		color:red;
 	}
 }
 
 #socialmedia{
 	float:left;
-	padding-left:20px;
+	padding-left:25px;
 
 	a{
 		padding-right:5px;

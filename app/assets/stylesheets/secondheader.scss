@@ -2,10 +2,11 @@ $lightpurp:#ede;
 $lgreen:#D8F6CE;
 $secondheaderheight:90px;
 $headergrey:#333;
+$anniered:#faa;
 
 #secondheaderbox{
 	height:$secondheaderheight;
-	background:$lgreen;
+	background:$anniered;
 	width:100%
 
 }
@@ -13,7 +14,7 @@ $headergrey:#333;
 #secondheadernav{
 	text-transform:uppercase;
 	font-size:14px;
-	font-weight:bold;
+	
 	padding-top:36px;
 	float:right;
 
@@ -25,7 +26,7 @@ $headergrey:#333;
 
 	}
 	a:hover{
-
+		color:red;
 	}
 }
 
@@ -39,19 +40,22 @@ $headergrey:#333;
 
 }
 
- #mainlogo{
-	font-size: 20px;
-	float:left;
+#headlogobox{
 	padding-top: 16px;
 	padding-left:25px;
+	float:left;
+	font-size:20px;
+}
+
+ #mainlogo{
 	font-family:Oswald;
-	
+	font-weight:100;
 	a{
 		color:$headergrey;
 		text-decoration:none;
 	}
 
-	#champ{
+	#headchamp{
 		font-weight: bold;
 		font-size: 30px;
 	}
