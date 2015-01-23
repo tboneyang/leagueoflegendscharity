@@ -1,10 +1,12 @@
 #ruleheader{
 	font-size:25px;
 	text-align:center;
+	background:#ddd;
+	padding:20px;
 }
 
 #ruletable td{
-	padding-left:10px;
+	padding:10px;
 	line-height:150%;
 }
 
@@ -24,4 +26,34 @@
 	padding:10px;
 	width:120px;
 	margin:auto;
+}
+
+#entryrulebox{
+	width:100%;
+	height:500px;
+
+
+	#entryrulesection{
+		height:200px;
+		padding-left:50px;
+		padding-top:25px;
+		font-size:28px;
+		font-weight:100;
+		
+		#ruleentryname{
+			margin-left:10px;
+			width:300px;
+			border:none;
+			background:none;
+			border-bottom:3px solid #faa;
+			margin-bottom: 35px;
+			font-size:38px;
+
+		}
+		#ruleentryname:focus{
+			outline:0;
+			color:#4099ff;
+			cursor:20px;
+		}
+	}
 }

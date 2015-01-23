@@ -9,6 +9,13 @@ Rails.application.routes.draw do
   match '/contact', to: "static#contact", via: 'get'
   match '/schedules', to: "static#schedules", via: 'get'
   match '/rules', to: "static#rules", via: "get"
+
+  resources :tournaments do
+    resources :contestants
+    end
+
+
+
   
 
   # The priority is based upon order of creation: first created -> highest priority.

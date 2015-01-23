@@ -1,0 +1,121 @@
+
+#scheduleheader{
+	background:black;
+	color:white;
+	text-align:center;
+
+	#schedulelogo{
+	font-family:Oswald;
+	font-size:25px;
+
+		#champemph{
+			font-weight:bold;
+			font-size: 38px;
+		}
+	}
+}
+
+
+
+#scheduleinfobox{
+	width:500px;
+	float:left;
+	position:relative;
+
+	#scheduledeadline{
+		margin-left: 90px;
+		margin-top:40px;
+		font-size:38px;
+		border-radius: 10px;
+		background:#333;
+		padding-left: 30px;
+		padding-top:10px;
+		padding-bottom:10px;
+		color:#faa;
+
+		#deadlinedate{
+			font-size:30px;
+			font-weight: 100;
+		}
+	}
+
+	#scheduletable{
+		margin-top:-25px;
+		margin-left:90px;
+		border:1px solid black;
+		font-size:20px;
+		padding:5px;
+		border-radius:10px;
+		background:#ddd;
+		//background:black;
+		//color:white;
+
+		td{
+			padding:5px;
+		}
+	}
+
+	#enterb{
+		background:black;
+		color:white;
+		border-radius:10px;
+		font-size:35px;
+		padding:12px;
+		font-family:oswald;
+		position:absolute;
+		left:90px;
+		bottom:-90px;
+
+	}
+
+	#pledgeb{
+		background:black;
+		color:white;
+		border-radius:10px;
+		font-size:35px;
+		padding:12px;
+		font-family:oswald;
+		position:absolute;
+		left:195px;
+		bottom:-90px;
+	}
+
+	#charityb{
+	background:black;
+	color:white;
+	border-radius:10px;
+	font-size:35px;
+	padding:12px;
+	font-family:oswald;
+	position:absolute;
+	left:320px;
+	bottom:-90px;
+
+	}
+}
+
+#schedulepic{
+width:350px;
+padding-left:80px;
+padding-top:20px;
+
+}
+
+#onevmedal{
+	position:absolute;
+	right:-460px;
+	bottom:-90px;
+	border-radius:10px;
+	background:black;
+	color:white;
+	padding:10px;
+	font-size:35px;
+	font-family:oswald;
+	font-weight:bold;
+}
+
+#extraspace{
+	height:120px;
+	border-bottom:45px solid black;
+}
+
