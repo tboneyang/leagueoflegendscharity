@@ -34,23 +34,64 @@
 
 
 	#entryrulesection{
-		height:200px;
 		padding-left:50px;
 		padding-top:25px;
+		height:100px;
 		font-size:28px;
 		font-weight:100;
 		
+		a{
+			color:black;
+			font-style: italic;
+		}
+
 		#ruleentryname{
-			margin-left:10px;
-			width:300px;
+			width:500px;
 			border:none;
 			background:none;
 			border-bottom:3px solid #faa;
-			margin-bottom: 35px;
 			font-size:38px;
-
+			float:left;
 		}
-		#ruleentryname:focus{
+
+		#regbuttonbox{
+			font-size: 20px;
+			font-family: Oswald;
+			margin-left:30px;
+			border-radius:10px;
+			border:1px solid black;
+			padding:10px;
+			color:black;
+			text-decoration:none;
+			float:left;
+			cursor:pointer;
+		}
+
+		#afterreg{
+			float:left;
+			width:900px;
+			padding-top:15px;
+		}
+
+		#ruleentryname2{
+			width:290px;
+			border:none;
+			background:none;
+			border-bottom:3px solid #faa;
+			font-size:38px;
+			float:left;
+		}
+		#donationamount{
+			width:260px;
+			border:none;
+			background:none;
+			border-bottom:3px solid #faa;
+			font-size:38px;
+			float:left;
+			margin-left:20px;
+		}
+
+		#ruleentryname:focus, #ruleentryname2:focus, #donationamount:focus{
 			outline:0;
 			color:#4099ff;
 			cursor:20px;

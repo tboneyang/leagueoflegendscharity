@@ -4,12 +4,17 @@
 	<div id="entryrulebox">
 		<h1 id="ruleheader">How Do I Enter a Tournament?</h1>
 		<div id="entryrulesection">
-		<p>Enter Your Summoner Name  <input id="ruleentryname"></input> </p>
-		<h4>That's it, you're done!</h4>
+		<input placeholder="Enter Your Summoner Name" id="ruleentryname"></input>  
+		<a id ="regbutton" onClick="regsummoner()"><div id="regbuttonbox">Register</div></a>
+		<div id="afterreg"></div>
 		</div>
+
 		<div id="entryrulesection">
-		<h3>Climb your way into one of 24 seeds to compete!</h3>
-		<h3>Donate yourself or gather support and pledges from other players!</h3>
+		<h3>Climb your way to one of the <a href="/standings">top 24 seeds</a> to compete!</h3>
+		<div>
+			<input id="ruleentryname2" placeholder="Enter Summoner Name"></input><input id="donationamount" placeholder="Pledge Amount"></input>
+			<a id ="donbutton" onClick="donsummoner()"><div id="regbuttonbox">Donate</div></a>
+		</div>
 		</div>
 	</div>
 

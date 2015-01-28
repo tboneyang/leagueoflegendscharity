@@ -14,4 +14,6 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require homepage.js
+//= require rulepage.js
+//= require aboutpage.js
 //= require_tree .
