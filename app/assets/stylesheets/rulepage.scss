@@ -16,16 +16,26 @@
 	width:120px;
 	}
 
-#ruleexception{
-	font-size:12px;
+#moretourneyb{
+	margin:auto;
+	margin-top:30px;
+	font-size:14px;
+	background:#ddd;
+	border-radius:5px;
+	width:150px;
+	padding:25px;
+	border:1px solid black;
+	position:relative;
+
+	a{
+		text-decoration: none;
+		color:black;
+		text-transform: uppercase;
+	}
 }
 
-.buttonborder{
-	border:5px solid black;
-	border-radius:5px;
-	padding:10px;
-	width:120px;
-	margin:auto;
+#ruleexception{
+	font-size:12px;
 }
 
 #entryrulebox{
@@ -46,7 +56,7 @@
 		}
 
 		#ruleentryname{
-			width:500px;
+			width:480px;
 			border:none;
 			background:none;
 			border-bottom:3px solid #faa;
@@ -55,13 +65,13 @@
 		}
 
 		#regbuttonbox{
-			font-size: 20px;
-			font-family: Oswald;
+			font-size: 14px;
 			margin-left:30px;
-			border-radius:10px;
+			border-radius:5px;
 			border:1px solid black;
-			padding:10px;
+			padding:17px;
 			color:black;
+			background:#ddd;
 			text-decoration:none;
 			float:left;
 			cursor:pointer;

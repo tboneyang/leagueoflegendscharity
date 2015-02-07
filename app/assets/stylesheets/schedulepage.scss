@@ -1,8 +1,8 @@
 
 #scheduleheader{
-	background:black;
-	color:white;
+	color:black;
 	text-align:center;
+	padding:15px;
 
 	#schedulelogo{
 	font-family:Oswald;
@@ -18,104 +18,99 @@
 
 
 #scheduleinfobox{
-	width:500px;
+	width:700px;
 	float:left;
 	position:relative;
 
 	#scheduledeadline{
-		margin-left: 90px;
+		margin-left: 78px;
 		margin-top:40px;
-		font-size:38px;
+		font-size:18px;
 		border-radius: 10px;
-		background:#333;
+		//background:#333;
 		padding-left: 30px;
-		padding-top:10px;
-		padding-bottom:10px;
-		color:#faa;
+		padding-top:60px;
+		padding-bottom:30px;
+		//color:#faa;
+		color:black;
+		width:360px;
+		//border:1px solid black;
 
 		#deadlinedate{
 			font-size:30px;
 			font-weight: 100;
+			margin:auto;
 		}
 	}
 
 	#scheduletable{
 		margin-top:-25px;
-		margin-left:90px;
-		border:1px solid black;
+		margin:auto;
+		//border:1px solid black;
 		font-size:20px;
 		padding:5px;
 		border-radius:10px;
 		background:#ddd;
-		//background:black;
-		//color:white;
-
-		td{
-			padding:5px;
-		}
+		z-index:1;
 	}
 
-	#enterb{
-		background:black;
-		color:white;
-		border-radius:10px;
-		font-size:35px;
-		padding:12px;
-		font-family:oswald;
-		position:absolute;
-		left:90px;
-		bottom:-90px;
-
-	}
-
-	#pledgeb{
-		background:black;
-		color:white;
-		border-radius:10px;
-		font-size:35px;
-		padding:12px;
-		font-family:oswald;
-		position:absolute;
-		left:195px;
-		bottom:-90px;
-	}
-
-	#charityb{
-	background:black;
-	color:white;
-	border-radius:10px;
-	font-size:35px;
-	padding:12px;
-	font-family:oswald;
-	position:absolute;
-	left:320px;
-	bottom:-90px;
-
-	}
 }
 
 #schedulepic{
-width:350px;
-padding-left:80px;
-padding-top:20px;
-
+width:200px;
+position:absolute;
+right:280px;
+top:120px;
 }
-
-#onevmedal{
+#scheduleyoutube{
 	position:absolute;
-	right:-460px;
-	bottom:-90px;
-	border-radius:10px;
-	background:black;
-	color:white;
+	width:100px;
+	top:160px;
+	right:160px;
+}
+#scheduletwitch{
+	position:absolute;
+	width:130px;
+	top:280px;
+	right:150px;
+}
+#schedulecharityinfo{
+	position:absolute;
+	right:20px;
+	top:380px;
+}
+
+
+.pbackground{
+	background:#faa;
 	padding:10px;
-	font-size:35px;
-	font-family:oswald;
 	font-weight:bold;
+	border-radius:5px;
 }
 
-#extraspace{
-	height:120px;
-	border-bottom:45px solid black;
+.grbackground{
+	border-radius:5px;
+	padding:10px;
+	font-size:17px;
+	background:#eee;
 }
 
+#schedulenav{
+	width:100%;
+	height:100px;
+	background:#e2e2e2;
+	margin-top:470px;
+	position:relative;
+	text-align:center;
+	a{
+		color:white;
+		text-decoration:none;
+		font-size: 25px;
+		padding:30px;
+		background:#222;
+		font-family: Oswald;
+		text-transform: uppercase;
+		border-radius:10px;
+	}
+
+}

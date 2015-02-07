@@ -1,0 +1,39 @@
+#charitypic{
+	width:270px;
+	float:left;
+	border:5px solid #faa;
+	border-radius:10px;
+}
+
+#charityarticletitle{
+	width:660px;
+	float:left;
+	font-size:30px;
+	padding-left:40px;
+	font-weight:bold;
+}
+
+#charitystory{
+	width:660px;
+	height:200px;
+	float:left;
+	padding-left:40px;
+	line-height:180%;
+	font-size:18px;
+}
+
+#charitynavbox{
+	width:270px;
+	position:absolute;
+	left:0px;
+	top:240px;
+	margin-top:190px;
+	a{
+		padding:20px;
+		background:#faa;
+		border-radius:10px;
+		color:black;
+		text-decoration:none;
+		margin-left:10px;
+	}
+}
