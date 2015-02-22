@@ -1,0 +1,22 @@
+#tournamentbar{
+	width:100%;
+	//
+	background:#aaa;
+	z-index:1;
+	border:1px solid #aaa;
+	
+
+	#tournamenttitle{
+		word-spacing: 10px;
+		border-bottom: 1px solid #aaa;
+		float:left;
+		text-align: center;
+		width:100%;
+		
+		font-weight:bold;
+	}
+}
+
+#tournamentcontentbox{
+
+}
