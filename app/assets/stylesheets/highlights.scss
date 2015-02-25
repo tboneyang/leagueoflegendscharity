@@ -1,22 +1,89 @@
 #tournamentbar{
 	width:100%;
+	float:left;
 	//
-	background:#aaa;
-	z-index:1;
-	border:1px solid #aaa;
-	
 
-	#tournamenttitle{
+	#tournamentbartitle{
 		word-spacing: 10px;
-		border-bottom: 1px solid #aaa;
+		border-top:1px solid #aaa;
 		float:left;
-		text-align: center;
 		width:100%;
-		
+		font-size:25px;
 		font-weight:bold;
+		padding:20px;
+		text-align:center;
+		background:#eee;
 	}
 }
 
-#tournamentcontentbox{
+#lefthlightbox{
+	position:relative;
+	width:400px;
+	float:left;
+	margin-left:50px;
+	#sectiontitle{
+		text-align:center;
+		text-transform:uppercase;
+		font-weight:100;
+		padding:10px;
+	}
+
+	h1{
+		text-align:center;
+		font-weight:100;
+	}
+	select{
+		width:100%;
+		font-size:20px;
+		text-align:center;
+	}
+}
+
+#righthlightbox{
+	position:relative;
+	width:400px;
+	float:right;
+	margin-right:50px;
+	margin-bottom:30px;
+
+	#sectiontitle{
+		text-align:center;
+		text-transform:uppercase;
+		font-weight:100;
+		padding:10px;
+	}
+
+	h4{
+		text-decoration:underline;
+	}
+
+	a{
+		text-decoration:none;
+	}
+	#tourneygame{
+		color:#333;
+		line-height:200%;
+		width:100%;
+		border:1px solid #333;
+		position:relative;
+		padding:15px;
+		font-weight:800;
+		padding-left:50px;
+
+		#rightp{
+			float:right;
+			padding-right:50px;
+		}
+		#vs{
+			position:absolute;
+			left:220px;
+			font-weight:100;
+		}
+	}
+
+
+	a:hover{
+		background:#f9f9f9;
+	}
 
 }

@@ -16,4 +16,5 @@
 //= require homepage.js
 //= require rulepage.js
 //= require aboutpage.js
+//= require charitypage.js
 //= require_tree .

@@ -5,8 +5,18 @@ $kassrobe:#282739;
 
 #tiericon{
 	background:url("/challenger.png") no-repeat;
-	background-position:165px;
-	background-size:50px 50px;
+	background-position:195px;
+	background-size:40px 40px;
+}
+#tiericon2{
+	background:url("/tiericon2.png") no-repeat;
+	background-position:195px;
+	background-size:40px 40px;
+}
+#tiericon3{
+	background:url("/wood5.jpg") no-repeat;
+	background-position:195px;
+	background-size:40px 40px;
 }
 
 #standingsnavbar{
@@ -14,8 +24,7 @@ $kassrobe:#282739;
 	height:40px;
 	font-size:20px;
 	background:$lightgrey;
-	border:1px solid purple;
-	border-bottom:10px solid $kassrobe;
+	border-bottom:5px solid $kassrobe;
 
 	a{
 		color:$kassrobe;
@@ -30,6 +39,7 @@ $kassrobe:#282739;
 		padding-top:7px;
 		background:$kassrobe;
 		color:$lightgrey;
+
 	}
 
 	#prevstandingsnav{
@@ -38,6 +48,7 @@ $kassrobe:#282739;
 		float:left;
 		text-align:center;
 		padding-top:7px;
+		border-right:1px solid $kassrobe;
 
 	}
 
@@ -47,13 +58,14 @@ $kassrobe:#282739;
 		float:left;
 		text-align:center;
 		padding-top:7px;
+		border-right:1px solid $kassrobe;
 	}
 
 	#standingsearchbar{
 		border-radius:5px;
 		border:1px solid $kassrobe;
 		height:28px;
-		margin-left:10px;
+		margin-left:15px;
 		margin-top:4px;
 		text-indent:30px;
 		background: white url("http://i.imgur.com/lFkqn.png") left center no-repeat;
@@ -63,17 +75,30 @@ $kassrobe:#282739;
 
 #standingslist{
 	width:100%;
-	height:680px;
-	background: $lightgrey;
-	border:1px solid purple;
+	border-spacing:0px;
+	border-left:1px solid $kassrobe;
+	border-bottom:1px solid $kassrobe;
+
+	#namingrow{
+		color:$lightgrey;
+		background:$kassrobe;
+	}
 
 	td{
-		height:30px;
-		padding:12px;
-		border:1px solid $kassrobe;
+		height:20px;
+		padding:9px;
+		border-right:1px solid $kassrobe;
+		input{
+			width:60px;
+			text-align:right;
+		}
+		button{
+			border-radius:100%;
+			border:1px solid black;
+		}
 	}
 }
 
 #alt{
-	background:$medgrey;
+	background:#eee;
 }

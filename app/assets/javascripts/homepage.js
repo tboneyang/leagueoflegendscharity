@@ -1,3 +1,4 @@
+/*
 var showschedule = function(){
   $("#feab").removeClass("selected");
   $("#regb").removeClass("selected");
@@ -64,11 +65,12 @@ var showfeature = function(){
   $("#homenavbox").append(table);
 
 }
+*/
 
 $(document).ready(function(){
 
 	//document.setTimeout(function(){}, 1000);
-  showfeature();
+  //showfeature();
 
 	var donation = 19765;
 	  $({someValue: 19000}).animate({someValue: donation}, {

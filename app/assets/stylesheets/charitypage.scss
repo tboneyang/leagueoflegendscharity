@@ -1,3 +1,37 @@
+#featuredtitle{
+	float:left;
+	padding:20px;
+	font-size:25px;
+	width:100%;
+	background:#eee;
+	text-align:center;
+	word-spacing:10px;
+	margin-bottom:25px;
+}
+#featuredtitle2{
+	float:left;
+	padding:20px;
+	font-size:25px;
+	width:100%;
+	background:#eee;
+	text-align:center;
+	word-spacing:10px;
+	margin-bottom:25px;
+	margin-top:105px;
+}
+#featuredtitle3{
+	float:left;
+	padding:20px;
+	font-size:25px;
+	width:100%;
+	background:#eee;
+	text-align:center;
+	word-spacing:10px;
+	margin-bottom:25px;
+	margin-top:25px;
+}
+
+
 #charitypic{
 	width:270px;
 	float:left;
@@ -8,9 +42,10 @@
 #charityarticletitle{
 	width:660px;
 	float:left;
-	font-size:30px;
+	font-size:24px;
 	padding-left:40px;
-	font-weight:bold;
+	word-spacing:5px;
+	text-transform:uppercase;
 }
 
 #charitystory{
@@ -19,14 +54,14 @@
 	float:left;
 	padding-left:40px;
 	line-height:180%;
-	font-size:18px;
+	font-size:17px;
 }
 
 #charitynavbox{
 	width:270px;
 	position:absolute;
 	left:0px;
-	top:240px;
+	top:330px;
 	margin-top:190px;
 	a{
 		padding:20px;
@@ -38,8 +73,66 @@
 	}
 }
 
-#othercharityheader{
+#rivencharity{
+	cursor:pointer;
+	:hover{
+		text-decoration:underline;
+
+	}
+}
+#zedcharity{
+	cursor:pointer;
+	:hover{
+		text-decoration:underline;
+	}
+}
+
+
+#othercharityheader1{
 	width:100%;
-	background:#222;
-	color:white;
+	border-top: 1px solid #333;
+	border-bottom:1px solid #333;
+	float:left;
+	font-size:24px;
+	padding:10px;
+	position:relative;
+	text-transform:uppercase;
+
+	#rivencharitycontent{
+		font-size:15px;
+		margin-top:15px;
+		line-height:200%;
+		text-transform:none;
+	}
+
+}
+
+#othercharityheader2{
+	width:100%;
+	border-bottom: 1px solid #222;
+	float:left;
+	font-size:24px;
+	padding:10px;
+	text-transform:uppercase;
+
+	#zedcharitycontent{
+		font-size:15px;
+		margin-top:15px;
+		line-height:200%;
+		text-transform:none;
+	}
+}
+
+
+#partnercharitybox{
+	width:100%;
+	position:relative;
+	float:left;
+	height:500px;
+	padding:30px;
+	word-spacing:20px;
+
+	.charitypadding{
+		padding:30px;
+	}
 }
