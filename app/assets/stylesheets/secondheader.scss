@@ -1,12 +1,12 @@
 $lightpurp:#ede;
 $lgreen:#D8F6CE;
-$secondheaderheight:90px;
+$secondheaderheight:100px;
 $headergrey:#333;
 $anniered:#faa;
 
 #secondheaderbox{
 	height:$secondheaderheight;
-	background:$anniered;
+	background:$anniered;//#7d7;
 	width:100%
 
 }
@@ -15,7 +15,7 @@ $anniered:#faa;
 	text-transform:uppercase;
 	font-size:14px;
 	
-	padding-top:36px;
+	padding-top:40px;
 	float:right;
 
 	a{
@@ -26,25 +26,15 @@ $anniered:#faa;
 
 	}
 	a:hover{
-		color:red;
+		color:red;//red;
 	}
-}
-
-#mascot{
-	position:absolute;
-	top:60px;
-	left:36px;
-	height:120px;
-	width:110px;
-	z-index:12;
-
 }
 
 #headlogobox{
 	padding-top: 16px;
 	padding-left:25px;
 	float:left;
-	font-size:20px;
+	font-size:23px;
 }
 
  #mainlogo{
@@ -57,6 +47,11 @@ $anniered:#faa;
 
 	#headchamp{
 		font-weight: bold;
-		font-size: 30px;
+		font-size: 34px;
 	}
+}
+
+.hlogo{
+	//height:70px;
+	//width:50px;
 }
